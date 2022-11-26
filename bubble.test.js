@@ -10,7 +10,7 @@ describe('bubbleSort', function () {
   it('should sort numbers in ascending order', function () {
     expect(bubbleSort([4, 20, 12, 10, 7, 9])).toEqual(
       [4, 7, 9, 10, 12, 20],
-      "bubbleSort([4, 20, 12, 10, 7, 9]) should equal [4, 7, 8, 10, 12, 20]"
+      "bubbleSort([4, 20, 12, 10, 7, 9]) should equal [4, 7, 9, 10, 12, 20]"
     );
 
     expect(bubbleSort([0, -10, 7, 4])).toEqual(
